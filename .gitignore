@@ -1,0 +1,43 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+venv/
+venv312/
+env/
+ENV/
+
+results/
+*.png
+*.xml
+*.txt
+
+*.nhr
+*.nin
+*.nsq
+*.njs
+*.ntf
+*.nsd
+*.psq
+*.pin
+*.phr
+
+.cache/
+build/
+dist/
+*.egg-info/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Results / temp
+results/
+*.log
+
+# Docker artifacts
+*.tar
+*.zip

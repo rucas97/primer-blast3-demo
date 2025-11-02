@@ -1,2 +1,8 @@
-# primer-blast3-demo
-Demo integrating Primer3 and BLAST for PCR primer design and specificity checking via Python/Biopython. Includes sample FASTA data, parameter templates, and an anonymized SPSS forecast chart from Farayand lab analytics—ideal for teaching reproducible bioinformatics workflows.    autorenew  thumb_up  thumb_down
+# Primer‑BLAST3‑Demo 🧪
+Containerized pipeline for automated primer design and BLAST validation.
+
+## 🚀 Usage
+Build and run locally:
+```bash
+docker build -t primer-blast3-demo .
+docker run --rm -v ${PWD}:/data primer-blast3-demo python /app/src/primer_design.py
